@@ -1,0 +1,23 @@
+.preview-icon-title {
+  font-size: 24px;
+  text-align: center;
+  margin: 60px;
+}
+
+.preview-icon-cells {
+  column-gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.preview-icon-cell {
+  align-items: center;
+  background-image: linear-gradient(rgb(246, 245, 245) 0%, rgb(246, 245, 245) 100%);
+  column-gap: 10px;
+  grid-auto-flow: column;
+  justify-content: center;
+  min-width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+}
